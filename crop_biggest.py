@@ -40,8 +40,8 @@ def crop_largest_segment(image_path, model_path, output_path):
 
 
 if __name__ == "__main__":
-    source = "./images/S__12861456_0.jpg"
+    source = "./images/S__12861465_0.jpg"
     model_path = "./model/best_segment.pt"  
     output_cropped_path = "cropped_gauge.jpg"
     crop_largest_image = crop_largest_segment(source, model_path, output_cropped_path)
-    print(f"save in path {crop_largest_image}")
+    print(f"save in path {crop_largest_image} ")
